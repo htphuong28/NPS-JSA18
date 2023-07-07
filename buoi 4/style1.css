@@ -1,0 +1,4 @@
+input[type="checkbox"]#checkbox1:checked + span {
+    border-color: red;
+  background-color:red;
+}
