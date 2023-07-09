@@ -32,7 +32,7 @@ searchInput.addEventListener("change", function(event) {
         sunset.innerHTML = `${sunsetTime.getHours()}:${sunsetTime.getMinutes()}`
         
         humidity.innerHTML = data.main.humidity
-        windSpeed.innerHTML = data.wind.speed
+        windSpeed.innerHTML = (data.wind.speed*3.6).toFixed(3)
         
 
         })
